@@ -7,3 +7,8 @@ Before you raise the server:
 The server is started with the command: <code>php bin/console server:run</code>
 
 After that you can open it locally at <link>http://127.0.0.1:8000</link>
+
+
+Test data from the admin panel:
+Login: admin@example.com
+Password: 12345
