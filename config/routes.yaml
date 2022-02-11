@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+main:
+    path: /security/login
+    controller: App\Controller\UserAuthSecurityController::login

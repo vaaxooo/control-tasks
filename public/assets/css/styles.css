@@ -1,0 +1,22 @@
+.form-group {
+    margin: 10px 0px;
+}
+
+.block {
+    padding: 50px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+td {
+    vertical-align: middle;
+}
+
+th {
+    color: #adb5bd;
+    border: 0;
+}
