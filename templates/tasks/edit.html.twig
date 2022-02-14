@@ -30,11 +30,10 @@
 
     <div class="form-group">
         <label for="inputReason">Reason</label>
-        <select name="reason" id="inputReason" class="form-control" autocomplete="reason" required value="{{ task.reason }}">
-            <option value="DB changes" {% if(task.reason) == "DB changes" %} selected="" {% endif %}>DB changes</option>
-            <option value="infrastructure" {% if(task.reason) == "infrastructure" %} selected="" {% endif %}>infrastructure</option>
-            <option value="failures" {% if(task.reason) == "failures" %} selected="" {% endif %}>failures</option>
-        </select>
+        <div class="form-group">
+            <label for="inputReason">Reason</label>
+            <input name="reason" id="inputReason" class="form-control" autocomplete="reason" required type="search" placeholder="Input reason" value="{{ task.reason }}">
+        </div>
     </div>
 
     <input type="hidden" name="_csrf_token"

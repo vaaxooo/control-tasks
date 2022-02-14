@@ -21,11 +21,7 @@
     </div>
     <div class="form-group">
         <label for="inputReason">Reason</label>
-        <select name="reason" id="inputReason" class="form-control" autocomplete="reason" required>
-            <option value="DB changes">DB changes</option>
-            <option value="infrastructure">infrastructure</option>
-            <option value="failures">failures</option>
-        </select>
+        <input name="reason" id="inputReason" class="form-control" autocomplete="reason" required type="search" placeholder="Input reason">
     </div>
     <input type="hidden" name="_csrf_token"
            value="{{ csrf_token('authenticate') }}"
