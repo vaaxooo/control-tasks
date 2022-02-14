@@ -5,6 +5,7 @@ Before you raise the server:
 <code>DATABASE_URL="mysql://{user}:{password}@127.0.0.1:3306/{dbname}?serverVersion=5.7"</code>
 
 3. Import migrations <code>php bin/console doctrine:migrations:migrate</code>
+<code>php bin/console doctrine:fixtures:load</code>
 
 The server is started with the command: <code>php bin/console server:run</code>
 
